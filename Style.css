@@ -1,0 +1,45 @@
+body{
+	color: black;
+	background-color: white;
+	max-width: 100%;
+	overflow-x: hidden;
+	margin: 0, auto
+	margin-bottom: 177px;
+}
+
+html{
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+	position: relative;
+	min-height: 100%;
+	box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:red; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: white;
+    box-shadow: 8px 8px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+input[type=submit]:hover {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    background-color: #b30000;
+    box-shadow: 7px 7px 4px 0px rgba(50, 50, 50, 0.75);
+}
+
+input[type=submit]:active {
+  background-color: #b30000;
+  box-shadow: 3px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  transform: translateY(4px);
+}
